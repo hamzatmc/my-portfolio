@@ -2,7 +2,8 @@
 
 import { useEffect } from 'react';
 
-const GlowCard = ({ children , identifier}) => {
+if(typeof window !== 'undefined') {
+  const GlowCard = ({ children , identifier}) => {
   useEffect(() => {
     const CONTAINER = document.querySelector(`.glow-container-${identifier}`);
     const CARDS = document.querySelectorAll(`.glow-card-${identifier}`);
@@ -77,5 +78,6 @@ const GlowCard = ({ children , identifier}) => {
     </div>
   );
 };
+}
 
 export default GlowCard;
