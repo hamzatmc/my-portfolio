@@ -12,6 +12,7 @@ export const personalData = {
   twitter: '',
   stackOverflow: 'https://stackoverflow.com/users/30031837/hafiz-muhammad-ameer-hamza',
   leetcode: "https://leetcode.com/u/hafizameer/",
-  devUsername: "mameerhamza024",
+  // devUsername: "mameerhamza024",
+  devUsername: "",
   resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
 }
